@@ -1,4 +1,4 @@
-# QuadratiK Dockerfile Repository
+# QuadratiK Dashboard
 
 This repository contains only the Dockerfile used to host the QuadratiK Dashboard. For the actual code repository, please visit [QuadratiK on GitHub](https://github.com/rmj3197/QuadratiK). 
 
