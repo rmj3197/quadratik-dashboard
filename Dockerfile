@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /home/app
 
-RUN git clone https://github.com/rmj3197/QuadratiK.git .
+RUN git clone https://github.com/rmj3197/test-repo.git .
 
 ENV VIRTUAL_ENV=/home/app/venv
 ENV MPLCONFIGDIR='/.config/matplotlib'
