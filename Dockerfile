@@ -8,6 +8,10 @@ RUN apt-get update && apt-get install -y \
     build-essential \
     software-properties-common \
     git \
+    texlive-latex-extra \
+    texlive-fonts-recommended \
+    cm-super \
+    dvipng \
     latexmk
 
 WORKDIR /home/app
