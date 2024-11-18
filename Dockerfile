@@ -21,7 +21,7 @@ RUN git clone https://github.com/rmj3197/QuadratiK.git .
 ENV VIRTUAL_ENV=/home/app/venv
 
 RUN virtualenv ${VIRTUAL_ENV}
-RUN . ${VIRTUAL_ENV}/bin/activate && pip install QuadratiK
+RUN . ${VIRTUAL_ENV}/bin/activate && pip install .
 
 RUN echo $PATH
 
