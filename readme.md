@@ -4,4 +4,4 @@ This repository contains only the Dockerfile used to host the QuadratiK Dashboar
 
 You can also find QuadratiK on PyPI at [QuadratiK on PyPI](https://pypi.org/project/QuadratiK/).
 
-if you are hosting this on Redhat OpenShift, please make sure that you set Port to 8501 instead of default 8080/80. 
+If you are hosting this on Redhat OpenShift, please make sure that you set Port to 8501 instead of default 8080/80. 
